@@ -1,0 +1,15 @@
+{
+  "id": "community.my.addon.collection",
+  "version": "1.0.1",
+  "name": "My Addon Collection",
+  "description": "Personal collection of addons",
+  "resources": ["addon_catalog"],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "addonCatalogs": [
+    { "type": "all", "id": "my-addons", "name": "My Addons" },
+    { "type": "movie", "id": "my-addons", "name": "My Addons" },
+    { "type": "series", "id": "my-addons", "name": "My Addons" }
+  ],
+  "behaviorHints": { "configurable": false }
+}
